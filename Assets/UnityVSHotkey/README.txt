@@ -5,8 +5,9 @@ There are two parts to the package.
 There is a Unity script that brings VS to the foreground, 
 and an VS plugin that brings Unity to the foreground.
 
-The Unity script works out of the box. 
-Press CTRL-1 in Unity to focus VS (or open it if it isn't already).
+The Unity script works out of the box,
+just drag the UnityVSHotkey folder into your Assets folder.
+You can now press CTRL-1 in Unity to focus VS (or open it if it isn't already).
 
 To install the VS plugin, either go to the menu and select UnityVSHotkey -> Install VS Plugin
 or open the GoToUnity Visual Studio Extension in the UnityVSHotkey directory. 
