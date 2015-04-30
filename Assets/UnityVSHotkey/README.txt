@@ -14,7 +14,7 @@ or open the GoToUnity Visual Studio Extension in the UnityVSHotkey directory.
 The plugin can be deleted after installation. 
 You can now press CTRL-1 in VS to focus Unity (it won't open if it isn't already).
 
-The zipped up source code for the VS Plugin is also included. 
+The source code for the VS Plugin is in the folder VSPluginSource
 You can delete it if you want, but you're free to modify it as you wish. 
 If you just want to change the shortcut keybinding, you'll need to change it on both the Unity side and the VS side.
 
