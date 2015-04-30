@@ -3,7 +3,9 @@ A two-part plugin that lets you switch between Unity and Visual Studio by pressi
 
 This package is tested on Windows 8 using Visual Studio 2013 Community Edition with Visual Studio 2013 Tools for Unity and Unity v5.0.1f1.
 
-The Unity script works out of the box, just drag the UnityVSHotkey folder into your Assets folder. You can now press CTRL-1 in Unity to focus VS (or open it if it isn't already).
+Assuming you have Visual Studio Tools for Unity in your Unity project, the Unity script works out of the box. Just drag the UnityVSHotkey folder into your Assets folder. You can now press CTRL-1 in Unity to focus VS (or open it if it isn't already).
+
+*Aside: If you don't have Visual Studio Tools for Unity, it will keep opening a new instance of VS each time you hit CTRL-1, since it's looking for a window with the title: "UnityVS.\<your-project-name\> - Microsoft Visual Studio". This code could be made more robust, I tried to get it to use the process name instead but I couldn't get a handle to the window.*
 
 To install the VS plugin, either go to the menu and select UnityVSHotkey -> Install VS Plugin or open the GoToUnity Visual Studio Extension in the UnityVSHotkey directory. The plugin can be deleted after installation. You can now press CTRL-1 in VS to focus Unity (it won't open if it isn't already).
 
