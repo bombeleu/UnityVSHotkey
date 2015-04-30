@@ -14,7 +14,6 @@ Assets/UnityVS/
 ExportedObj/
 *.svd
 *.userprefs
-*.csproj
 *.pidb
 *.suo
 *.user
