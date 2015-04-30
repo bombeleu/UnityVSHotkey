@@ -3,7 +3,7 @@
   <Metadata>
     <Identity Id="d5cfc0c4-2622-4b40-9d36-f0fc4ab43a48" Version="1.0" Language="en-US" Publisher="VoidUpdate" />
     <DisplayName>GoToUnity</DisplayName>
-    <Description>Single hotkey to open or focus Unity.</Description>
+    <Description>Single hotkey to bring Unity to the foreground.</Description>
   </Metadata>
   <Installation InstalledByMsi="false">
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
